@@ -1,6 +1,7 @@
 import React from 'react';
 
 import dummyData from './dummy-data';
+import SearchBar from './components/SearchBar';
 import './App.css';
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
     // console.log(this.state)
     return (
       <div className="App">
+      <SearchBar/>
       </div>
     );
   }  
