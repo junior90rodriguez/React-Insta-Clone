@@ -1,0 +1,50 @@
+.searchBarContainer {
+    display: flex;    
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+    height: 80px;
+}
+
+.logo {
+    width: 33.3%;
+    display: flex;
+}
+
+.igLogo {
+    width: 60px;
+}
+
+.dv{
+    border: 1px solid;
+    margin: 12px 20px;
+
+}
+
+.igWord {
+    width: 170px;
+}
+
+.icons {
+    width:33.3%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 40px;
+    margin: 20px
+}
+
+form {
+    width: 33.3%
+}
+
+input {
+    margin: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: center;
+    width: 200px;
+    padding: 3px;
+}
