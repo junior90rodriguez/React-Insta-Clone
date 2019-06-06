@@ -13,6 +13,7 @@ function SearchBar() {
         <div className="searchBarContainer">
             <div className="logo">
                 <img className='igLogo' src={IgLogo}/>
+                <div className="dv"></div>
                 <img className='igWord' src={IgWord}/>  
             </div>
                 <form>

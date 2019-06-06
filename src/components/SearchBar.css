@@ -1,16 +1,23 @@
 .searchBarContainer {
     display: flex;    
     border-bottom: 1px solid black;
-    margin-top: 20px;
+    padding: 20px 0px;
     height: 80px;
 }
 
 .logo {
     width: 33.3%;
+    display: flex;
 }
 
 .igLogo {
     width: 60px;
+}
+
+.dv{
+    border: 1px solid;
+    margin: 12px 20px;
+
 }
 
 .igWord {
@@ -24,7 +31,8 @@
 }
 
 .icon {
-    width: 40px
+    width: 40px;
+    margin: 20px
 }
 
 form {
