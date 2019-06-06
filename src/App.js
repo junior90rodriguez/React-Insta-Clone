@@ -2,6 +2,7 @@ import React from 'react';
 
 import dummyData from './dummy-data';
 import SearchBar from './components/SearchBar';
+import PostContainer from './components/PostContainer';
 import './App.css';
 
 class App extends React.Component {
@@ -18,6 +19,11 @@ class App extends React.Component {
     return (
       <div className="App">
       <SearchBar/>
+      <div>
+        {this.state.data.map(function(info){
+          return <PostContainer info={info} />
+        })}
+      </div>
       </div>
     );
   }  

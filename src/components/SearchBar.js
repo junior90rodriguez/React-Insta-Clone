@@ -19,9 +19,9 @@ function SearchBar() {
                     <input type='text' placeholder='Search' />  
                 </form> 
             <div className="icons">
-                <img className='compass' src={Compass} />
-                <img className='heart' src={Heart} />
-                <img className='person' src={Person} />
+                <img className='icon' src={Compass} />
+                <img className='icon' src={Heart} />
+                <img className='icon' src={Person} />
             </div>
         </div>
     )
