@@ -2,24 +2,26 @@ import React from 'react';
 
 import IgLogo from '../images/iglogo.svg';
 import IgWord from '../images/igword.svg';
-import Compass from '../images/compass.png';
-import Heart from '../images/heart.png';
-import Person from '../images/person.png';
+import Compass from '../images/compass.svg';
+import Heart from '../images/heart.svg';
+import Person from '../images/profile.svg';
+
+import './SearchBar.css';
 
 function SearchBar() {
     return(
         <div className="searchBarContainer">
             <div className="logo">
-                <img src={IgLogo}/>
-                <img src={IgWord}/>  
+                <img className='igLogo' src={IgLogo}/>
+                <img className='igWord' src={IgWord}/>  
             </div>
                 <form>
                     <input type='text' placeholder='Search' />  
                 </form> 
             <div className="icons">
-                <img src={Compass} />
-                <img src={Heart} />
-                <img src={Person} />
+                <img className='compass' src={Compass} />
+                <img className='heart' src={Heart} />
+                <img className='person' src={Person} />
             </div>
         </div>
     )
