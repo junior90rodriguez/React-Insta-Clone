@@ -4,6 +4,7 @@ import CommentSection from './CommentSection';
 import './PostContainer.css';
 
 function PostContainer(props) {
+    console.log(props, "post props")
     return (
         <div className="postContainer">
             <div className="head">
@@ -20,7 +21,7 @@ function PostContainer(props) {
             </div>
 
             <div> 
-                <CommentSection />
+                <CommentSection comments={props.info.comments} />
             </div>  
         </div>
     )

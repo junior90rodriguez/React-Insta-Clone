@@ -10,10 +10,15 @@ class App extends React.Component {
     super();
     this.state ={
       //---get data from dummy data and pass it to state---//
-      data: dummyData
+      data: []
     }
   }
 
+  componentDidMount() {
+    this.setState({data: dummyData})
+  }
+
+  
   render() {
     // console.log(this.state)
     return (
