@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import "./CommentSection.css";
 
 function CommentSection (props) {
@@ -11,9 +12,9 @@ function CommentSection (props) {
                    <>
                    <div className="commentContainer">
                    <div className="username">
-                    <p>{comment.username}</p>
+                    <p><strong>{comment.username}</strong></p>
                    </div>
-                   <div>
+                   <div className="comment">
                      <p>{comment.text}</p>
                    </div>
                    </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import CommentSection from './CommentSection';
 
 import './PostContainer.css';
+import CommentLike from './CommentLike';
 
 function PostContainer(props) {
     console.log(props, "post props")
@@ -20,7 +21,8 @@ function PostContainer(props) {
                 <img src={props.info.imageUrl} />
             </div>
 
-            <div> 
+            <div className="footer"> 
+            <CommentLike />
                 <CommentSection comments={props.info.comments} />
             </div>  
         </div>
