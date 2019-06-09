@@ -26,7 +26,7 @@ class App extends React.Component {
       <SearchBar/>
       <div>
         {this.state.data.map(function(info){
-          return <PostContainer info={info} />
+          return <PostContainer info={info} key={info.username} />
         })}
       </div>
       </div>

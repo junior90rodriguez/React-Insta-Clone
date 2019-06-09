@@ -10,7 +10,7 @@ function PostContainer(props) {
         <div className="postContainer">
             <div className="head">
                 <div>
-                    <img className="thumbNail" src={props.info.thumbnailUrl} />
+                    <img className="thumbNail" src={props.info.thumbnailUrl} alt="logo" />
                 </div>
                 <div>
                      <p><strong>{props.info.username}</strong></p>
@@ -18,11 +18,11 @@ function PostContainer(props) {
             </div>
 
             <div className="body">
-                <img src={props.info.imageUrl} />
+                <img src={props.info.imageUrl} alt="profile logo"/>
             </div>
 
             <div className="footer"> 
-            <CommentLike />
+            <CommentLike  likes={props.info} />
                 <CommentSection comments={props.info.comments} />
             </div>  
         </div>

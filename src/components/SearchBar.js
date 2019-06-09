@@ -12,17 +12,17 @@ function SearchBar() {
     return(
         <div className="searchBarContainer">
             <div className="logo">
-                <img className='igLogo' src={IgLogo}/>
+                <img className='igLogo' src={IgLogo} alt="instagram logo"/>
                 <div className="dv"></div>
-                <img className='igWord' src={IgWord}/>  
+                <img className='igWord' src={IgWord} alt="instagram lettering"/>  
             </div>
                 <form>
                     <input type='text' placeholder='Search' />  
                 </form> 
             <div className="icons">
-                <img className='icon' src={Compass} />
-                <img className='icon' src={Heart} />
-                <img className='icon' src={Person} />
+                <img className='icon' src={Compass} alt="compass" />
+                <img className='icon' src={Heart} alt="heart"/> 
+                <img className='icon' src={Person} alt="person"/>
             </div>
         </div>
     )

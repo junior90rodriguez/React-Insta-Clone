@@ -17,6 +17,9 @@ function CommentSection (props) {
                    <div className="comment">
                      <p>{comment.text}</p>
                    </div>
+                   <div>
+                        <form type="text" name="addcomment" placeholder="Add a comment" />
+                   </div>
                    </div>
                    
                    </>
