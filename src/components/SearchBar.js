@@ -16,8 +16,8 @@ function SearchBar() {
                 <div className="dv"></div>
                 <img className='igWord' src={IgWord} alt="instagram lettering"/>  
             </div>
-                <form>
-                    <input type='text' placeholder='Search' />  
+                <form className="searchform">
+                    <input className ="searchinput" type='text' placeholder='Search' />  
                 </form> 
             <div className="icons">
                 <img className='icon' src={Compass} alt="compass" />

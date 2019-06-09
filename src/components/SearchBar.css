@@ -36,11 +36,11 @@
     margin: 20px
 }
 
-form {
+.searchform {
     width: 33.3%
 }
 
-input {
+.searchinput {
     margin: 40px;
     font-size: 20px;
     border-radius: 5px;

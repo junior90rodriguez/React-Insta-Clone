@@ -13,7 +13,7 @@ function PostContainer(props) {
                     <img className="thumbNail" src={props.info.thumbnailUrl} alt="logo" />
                 </div>
                 <div>
-                     <p><strong>{props.info.username}</strong></p>
+                    <p><strong>{props.info.username}</strong></p>
                 </div>    
             </div>
 
@@ -22,9 +22,12 @@ function PostContainer(props) {
             </div>
 
             <div className="footer"> 
-            <CommentLike  likes={props.info} />
+                <CommentLike  likes={props.info} />
                 <CommentSection comments={props.info.comments} />
             </div>  
+            <form className="commentform">
+                <input className="commentinput" type="text" name="addcomment" placeholder="Add a comment" />
+            </form>
         </div>
     )
 }

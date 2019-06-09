@@ -34,3 +34,16 @@
 .likes p {
     margin: 10px;
 }
+
+.commentinput {
+    border: none;
+    border-top: 1px solid grey;
+    width: 99%;
+    height: 36px;
+    font-size: 1rem;
+}
+
+.commentform {
+    width: 100%;
+    height: 40px;
+}
