@@ -3,7 +3,14 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
+const Application = function() {
+    return(
+        <div>
+            <App />
+        </div>
+    )
+}
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Application />, document.getElementById('root'));
 
 

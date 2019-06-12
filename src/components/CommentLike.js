@@ -3,7 +3,7 @@ import Heart from '../images/heart.svg';
 import Comment from '../images/comment.svg';
 
 function CommentLike(props) {
-    console.log(props, 'likes props')
+    // console.log(props, 'likes props')
     return(
         <div className="commentLike">
                 <div className="iconContainer">
@@ -14,7 +14,6 @@ function CommentLike(props) {
                 <div className="likes">
                     <p><strong>{props.likes.likes} likes</strong></p>
                     <p>{props.likes.timestamp}</p>
-
                 </div>
             </div>
         </div>

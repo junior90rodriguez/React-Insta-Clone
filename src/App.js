@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'; 
 
 import dummyData from './dummy-data';
 import SearchBar from './components/SearchBar';
 import PostContainer from './components/PostContainer'
 import './App.css';
+import LogIn from './components/LogIn';
 
 class App extends React.Component {
   constructor(){
@@ -23,6 +24,7 @@ class App extends React.Component {
     // console.log(this.state)
     return (
       <div className="App">
+      {/* <LogIn /> */}
       <SearchBar/>
       <div>
         {this.state.data.map(function(info){
