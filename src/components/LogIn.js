@@ -1,21 +1,22 @@
 import React from 'react';
-import IgWord from '../images/igword.svg';
 
-import './LogIn.css';
+class Login extends React.Component {
+    state = {
+        Username: true
+    };
 
-function LogIn(props) {
-    return(
-        <div className="logIn-container">
-            <img src={IgWord} />
-            <p>Sign up to see photos and videos from your friends.</p>
-            <form>
-                <input type="text" placeholder="Mobile Number or Email" />
-                <input type="text" placeholder="Full Name" />
-                <input type="text" placeholder="Username" />
-                <input type="text" placeholder="Password" /> 
-            </form>
-        </div>
-    )
+
+    render() {
+        return (
+            <div>
+                <form>
+                    <input placeholder='Username' />
+                    <input placeholder='Password' />
+                    <button>Login</button>
+                </form>
+            </div>
+        )
+    }
 }
 
-export default LogIn;
+export default Login;

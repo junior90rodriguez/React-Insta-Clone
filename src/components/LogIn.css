@@ -1,9 +1,0 @@
-.logIn-container {
-    max-width: 600px;
-    margin: 0px auto;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
