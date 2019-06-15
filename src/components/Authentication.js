@@ -1,9 +1,13 @@
 import React from 'react';
 
-const withAuthenticate = Post =>
+const withAuthenticate = Post => Login =>
 class extends React.Component {
     render() {
-        return <Post />;
+        if (localStorage.getItem("Username")) {
+
+            return <Post />;
+        }
+        return <Login/>;
     }
 }
 
